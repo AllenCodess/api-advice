@@ -56,4 +56,5 @@ h1 {
   font-size: 16px;
   color: #cacaca;
   font-weight: 600;
+  cursor: pointer;
 }
