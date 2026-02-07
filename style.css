@@ -3,3 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+h1 {
+  text-align: center;
+  margin-top: 12rem;
+}
+
+.content-container {
+  border: black solid 8px;
+  width: 40%;
+  margin: 1rem auto;
+}
+
+#imageid {
+  width: 500px;
+  height: 250px;
+}
