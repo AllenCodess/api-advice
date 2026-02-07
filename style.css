@@ -4,18 +4,56 @@
   box-sizing: border-box;
 }
 
+body {
+  background:
+    linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)),
+    url(https://cdn.pixabay.com/photo/2025/01/13/13/54/camera-9330674_1280.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
 h1 {
   text-align: center;
   margin-top: 12rem;
+  color: #cacaca;
+  font-size: 39px;
 }
 
 .content-container {
-  border: black solid 8px;
-  width: 40%;
+  width: 30%;
+  margin: 1rem auto;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #cacaca;
+}
+
+.img-container {
+  width: 500px;
   margin: 1rem auto;
 }
 
 #imageid {
   width: 500px;
   height: 250px;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+.description {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.btn {
+  padding: 6px 9px;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  background-color: #d2691e;
+  font-size: 16px;
+  color: #cacaca;
+  font-weight: 600;
 }
